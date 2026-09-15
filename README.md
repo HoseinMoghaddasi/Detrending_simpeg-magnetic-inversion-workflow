@@ -6,6 +6,9 @@ In this recent workflow, I integrated Python with the SimPEG (v0.25.2) open-sour
 Here is how the workflow is structured:
 
 1. Regional-Residual Decoupling Constrained by Aeromagnetics
+The standalone Python script for regional trend fitting and residual extraction is available in regional_detrending.ipynb.
+
+
 <img width="1395" height="1000" alt="image" src="https://github.com/user-attachments/assets/5baabbb6-5dc7-4909-8441-8fe56126f14e" />
 
 Rather than relying on arbitrary polynomial filtering across a localized ground survey, we anchored our ground magnetic data into a 20x20 km aeromagnetic framework (500m Upward :low-pass filtered). Fitting a regional trend plane ensured that the residual magnetic anomaly entering the inversion mesh strictly reflects prospective deposit-scale lithologies and hydrothermal alteration corridors.
