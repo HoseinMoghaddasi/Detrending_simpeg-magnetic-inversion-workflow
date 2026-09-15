@@ -1,4 +1,4 @@
-# Detrending_simpeg-magnetic-inversion-workflow
+# 3D Magnetic Inversion & Regional Detrending with SimPEG
 In potential field inversions, numerical solvers will always converge to a mathematical minimum. However, without rigorous regional decoupling and interactive misfit inspection, the resulting model can easily misinterpret regional gradients or high-frequency noise as artificial deep targets.
 
 In this recent workflow, I integrated Python with the SimPEG (v0.25.2) open-source framework to build an end-to-end, geology-driven 3D magnetic inversion pipeline.
@@ -6,8 +6,8 @@ In this recent workflow, I integrated Python with the SimPEG (v0.25.2) open-sour
 Here is how the workflow is structured:
 
 1. Regional-Residual Decoupling Constrained by Aeromagnetics
-The standalone Python script for regional trend fitting and residual extraction is available in regional_detrending.ipynb.
 
+The standalone Python script for regional trend fitting and residual extraction is available in regional_detrending.ipynb
 
 <img width="1395" height="1000" alt="image" src="https://github.com/user-attachments/assets/5baabbb6-5dc7-4909-8441-8fe56126f14e" />
 
