@@ -1,0 +1,1 @@
+# -Detrending_simpeg-magnetic-inversion-workflow
