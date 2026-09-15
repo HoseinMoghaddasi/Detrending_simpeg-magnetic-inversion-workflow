@@ -1,4 +1,4 @@
-# -Detrending_simpeg-magnetic-inversion-workflow
+# Detrending_simpeg-magnetic-inversion-workflow
 In potential field inversions, numerical solvers will always converge to a mathematical minimum. However, without rigorous regional decoupling and interactive misfit inspection, the resulting model can easily misinterpret regional gradients or high-frequency noise as artificial deep targets.
 
 In this recent workflow, I integrated Python with the SimPEG (v0.25.2) open-source framework to build an end-to-end, geology-driven 3D magnetic inversion pipeline.
